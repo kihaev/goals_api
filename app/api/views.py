@@ -5,7 +5,7 @@ from .serializers import GoalSerializer
 
 # Create your views here.
 
-class ArticleView(ListCreateAPIView):
+class GoalView(ListCreateAPIView):
     queryset = Goal.objects.all()
     serializer_class = GoalSerializer
 
